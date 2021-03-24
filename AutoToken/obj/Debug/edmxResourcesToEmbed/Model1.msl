@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CumpLlamModelStoreContainer" CdmEntityContainer="CumpLlamEntities1">
+    <EntitySetMapping Name="SFS_Checklist">
+      <EntityTypeMapping TypeName="CumpLlamModel.SFS_Checklist">
+        <MappingFragment StoreEntitySet="SFS_Checklist">
+          <ScalarProperty Name="idAutoNum" ColumnName="idAutoNum" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="nombreTecnico" ColumnName="nombreTecnico" />
+          <ScalarProperty Name="emailTecnico" ColumnName="emailTecnico" />
+          <ScalarProperty Name="movil" ColumnName="movil" />
+          <ScalarProperty Name="usuarioTecnico" ColumnName="usuarioTecnico" />
+          <ScalarProperty Name="elementoChecklist" ColumnName="elementoChecklist" />
+          <ScalarProperty Name="checklistTemplate" ColumnName="checklistTemplate" />
+          <ScalarProperty Name="checklistInstance" ColumnName="checklistInstance" />
+          <ScalarProperty Name="checklistUpdAutor" ColumnName="checklistUpdAutor" />
+          <ScalarProperty Name="checklistId" ColumnName="checklistId" />
+          <ScalarProperty Name="etiquetaChecklist" ColumnName="etiquetaChecklist" />
+          <ScalarProperty Name="fechaActualiza" ColumnName="fechaActualiza" />
+          <ScalarProperty Name="comentarioChecklist" ColumnName="comentarioChecklist" />
+          <ScalarProperty Name="fechaCreacion" ColumnName="fechaCreacion" />
+          <ScalarProperty Name="cardName" ColumnName="cardName" />
+          <ScalarProperty Name="clgCode" ColumnName="clgCode" />
+          <ScalarProperty Name="fechaInicioActividad" ColumnName="fechaInicioActividad" />
+          <ScalarProperty Name="checklistName" ColumnName="checklistName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

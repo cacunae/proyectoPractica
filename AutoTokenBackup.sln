@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoToken", "AutoToken\AutoToken.csproj", "{609D693A-86E6-4BD7-BDAB-F9B42938E2FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{609D693A-86E6-4BD7-BDAB-F9B42938E2FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{609D693A-86E6-4BD7-BDAB-F9B42938E2FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{609D693A-86E6-4BD7-BDAB-F9B42938E2FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{609D693A-86E6-4BD7-BDAB-F9B42938E2FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6FB5FB47-E213-4005-89F9-7A47C7C62C34}
+	EndGlobalSection
+EndGlobal

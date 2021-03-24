@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CumpLlamModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="SFS_Checklist">
+    <Key>
+      <PropertyRef Name="idAutoNum" />
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="idAutoNum" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="code" Type="Int32" />
+    <Property Name="nombreTecnico" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="emailTecnico" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="movil" Type="Int64" />
+    <Property Name="usuarioTecnico" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="elementoChecklist" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="checklistTemplate" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="checklistInstance" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="checklistUpdAutor" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="checklistId" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="etiquetaChecklist" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="fechaActualiza" Type="DateTime" Precision="3" />
+    <Property Name="comentarioChecklist" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="fechaCreacion" Type="DateTime" Precision="3" />
+    <Property Name="cardName" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="clgCode" Type="Int32" />
+    <Property Name="fechaInicioActividad" Type="DateTime" Precision="3" />
+    <Property Name="checklistName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="CumpLlamEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="SFS_Checklist" EntityType="Self.SFS_Checklist" />
+  </EntityContainer>
+</Schema>
